@@ -12,4 +12,4 @@ Feature: HRM dashboard page
     Examples:
       | menu     |
       | Projects |
-     # | Tasks    |
+      | Tasks    |
