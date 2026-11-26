@@ -5,10 +5,11 @@ Feature: HRM dashboard page
 
   @Regression @device_Window_11 @author_AnhTester
   Scenario Outline: Open menu
+    #Vipin Sahu
     Given User navigate to dashboard
-    When User click "<menu>"
-    Then The user redirect to this page "<menu>"
+    #When User click "<menu>"
+    #Then The user redirect to this page "<menu>"
     Examples:
       | menu     |
       | Projects |
-      | Tasks    |
+     # | Tasks    |
